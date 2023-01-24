@@ -1,0 +1,50 @@
+body {
+
+}
+
+#banner {
+    width:  100%;
+
+}
+
+.principal {
+    background: #BECEF4;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#nossamissao {
+	font-size: 20px;
+}
+
+strong {
+	color: #CE93D8;
+}
+
+em strong {
+	color:  rgb(136, 78, 160);
+}
+
+.itens {
+    font-style:  italic;
+
+}
+
+
+.benefícios {
+
+    background: #FFFFFF;
+}
+
+.imagembeneficios {
+    width:  50%;
+}
