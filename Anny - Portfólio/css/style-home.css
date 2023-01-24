@@ -1,0 +1,72 @@
+body{
+  font-family: Georgia;
+}
+#background {
+  max-height: 100%;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(350px);
+}
+
+label {
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+#menu {
+
+  width: 50px;
+  max-height:100%;
+}
+
+nav {
+  background-color: rgba(221,160,221,0.7);
+  padding-bottom: 100px;
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  transition: all .5s;
+  position: absolute;
+
+}
+
+h3 {
+  font-style: bold;  
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 5px;
+
+}
+
+ul { 
+  top: 80px; 
+  width: 100%;
+  position: absolute;
+
+}
+
+li {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+
+a {
+  display: inline-block;
+  padding: 20px 5px;
+  color: black;
+}
+
+a:hover {
+  padding: 20px 0px;
+  background-color: rgb(176,196,222);
+  color: white;
+}
