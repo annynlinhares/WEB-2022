@@ -1,0 +1,170 @@
+body {
+	background:url("../imagens/home-1.jpg");
+	background-size: 800px 600px;
+}
+
+header {
+	background-color: #000000;
+	opacity: 0.8;
+	padding: 100px 0;
+	
+}
+
+.caixacentral {
+   position: relative;
+   width: 940px;
+   margin: 30px;
+} 
+
+#palavras {
+	text-align: center;
+	font-size: 32px;
+	color: #FDBF60;
+}
+
+.palavra {
+	font-family: 'Merriweather', serif;
+	font-size: 62px;
+	text-align: center;
+	color: #FDBF60;
+}
+
+.texto-2 {
+	background: url("../Imagens/branco.webp");
+	text-align: center;
+	padding: 78px 0;
+	font-size: 18px;
+
+}
+
+p {
+	font-size: 23px;
+}
+strong {
+	font-weight: bold;
+}
+
+.projetos {
+	font-size: 22px;
+   text-align: center;
+   width: 940px;
+   margin: 0 auto;
+   padding: 18px 0;
+   text-decoration-color: #000000;
+}
+
+.projetos:hover {
+   color: #000 ;  
+   opacity: 0.8;
+   transition: 2s;
+}
+
+h2 {
+	font-size: 24px;
+   color: #FDBF60;
+   text-decoration: underline;
+   text-decoration-color: #000000;
+}
+
+.projetos li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 20px 20px;
+   background-color: #000000;
+   text-decoration-color: underline #FDBF60; 
+   border-radius: 30px ;
+}
+
+.projetos li: hover {
+   color: #000000;
+   text-decoration-color: underline #000000;
+}
+.caixa-proposta{
+	text-align: center;
+	background-color: #FFFAFA;
+	width: 1273px;
+	margin: -10px;
+	padding: 88px 0;
+	text-decoration-color:  ;
+}
+.caixa-proposta li {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	vertical-align: top;
+	margin: -1px 1.5%;
+	padding: 40px 20px;
+	border: 4px solid #000000;
+	border-radius: 80px ;
+}
+.projeto{
+	color: #000000;
+}
+.bege{
+	font-size: 32px ;
+}
+.sub-rod{
+	font-size: 30px;
+	color: #8B0000;
+	margin: 60px;
+}
+.sub-r{
+	color: #8B0000;
+	font-size: 20px 
+}
+.sub{
+	color: #8B0000;
+	font-size: 20px;
+	margin: 10px;
+}
+.su{
+	color: #8B0000;
+	font-size: 15px;
+	margin: 0 auto;
+}
+#sub-rodape{
+	padding: 50px;
+	text-align: center;
+	background: #fcf9b3;
+
+}
+h1{
+	position: absolute;
+	top: -60px;
+	right: 530px;
+}
+
+nav{
+
+	position:  absolute;
+	top: -10px;
+	right: -95px;
+
+}
+
+nav li {
+ display: inline;
+ margin: 0 0 0 100px;
+}
+
+nav a {
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-transform: uppercase;
+	color: #FFFAFA;
+	font-weight: ;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color: #FDBF60;
+}
+#rodape {
+   text-align: center;
+   background:#FDBF60;
+   padding: 40px 0;
+}
