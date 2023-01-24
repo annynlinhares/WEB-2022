@@ -1,0 +1,84 @@
+ body {
+    background: #E6E6FA;
+}
+
+header {
+    background: #BECEF4;
+    padding: 20px 0;
+}
+.caixacentral {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 125px;
+   right: 0;
+}
+
+nav li {
+   display: inline-block;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+nav a:hover {
+    color: #CE93D8;
+    text-decoration: underline;
+}
+
+.principal {
+    background: #BECEF4;
+    padding: 30px;
+}
+
+.benefícios {
+
+    background: #FFFFFF;
+    padding: 50px;
+} 
+
+.itens {
+    font-style: italic;
+}
+
+.imagembeneficios {
+
+   width: 50%;
+}
+
+#amissao {
+    font-size: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+strong {
+    color: #CE93D8;
+}
+
+em strong {
+    color:  rgb(136, 78, 160);
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
