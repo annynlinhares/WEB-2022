@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+
+<body bgcolor="4169E1", text="E0FFFF">
+
+  <center>
+
+ <script>
+
+var nU = Number(window.prompt(`Entre com o valor a ser pesquisado.`));
+
+var ns = [4, 2, 7, 9, 1, 6];
+
+    document.write(`Nosso array ou vetor tem ${ns.length} elementos, ítens ou objetos`);
+    document.write(`<br> <br> =========================================================================================<br>`);
+     document.write(`Nosso array ou vetor está na ordem crescente: ${ns.sort()}<br><br>`);
+
+
+     document.write(`1º elemento, ítem ou objeto: ${ns[0]}<br>`);
+     document.write(`2º elemento, ítem ou objeto: ${ns[1]}<br>`);
+     document.write(`3º elemento, ítem ou objeto: ${ns[2]}<br>`);
+     document.write(`4º elemento, ítem ou objeto: ${ns[3]}<br>`);
+     document.write(`5º elemento, ítem ou objeto: ${ns[4]}<br>`);
+     document.write(`6º elemento, ítem ou objeto: ${ns[5]}<br><br>`);
+     document.write(`=========================================================================================<br>`);
+
+
+var ps = ns.indexOf(nU);
+  
+  if (ps != -1) {
+
+     document.write(`O número pesquisado (${nU}) se encontra no índice: ${ps}`);
+  } 
+
+  else if (ps === -1) {
+
+     document.write(`O número que você pesquisou (${nU}) NÃO foi encontrado.`);
+
+     document.write(`<br> <br> =========================================================================================<br>`);
+  }
+
+
+</script>
+
+</center>
+
+</body>
