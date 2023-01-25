@@ -1,0 +1,91 @@
+body {
+  background: #000000;
+}
+
+header {
+    background: #800000;
+    padding: 20px 0;
+}
+
+.caixacentral {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+nav {
+
+   position: absolute;
+   top: 125px;
+   right: 0;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+nav a:hover {
+    color: #D7270C;
+    text-decoration: underline;
+}
+
+.filmes{
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.filmes li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 4px solid #000000;
+   border-radius: 10px;
+}
+.filmes li:hover {
+   border-color: #B22222;
+
+}
+.filmes li:active {
+   border-color: #FFFFFF;
+}
+.filmes li: hover h2 {
+   font-size: 34px;
+}
+.filmes h2 {
+   font-size: 30px;
+   color: #D7270C;
+   font-weight: bold;
+   text-decoration: underline;
+   text-decoration-color: #000000;
+}
+.descrição {
+	font-size: 20px;
+	color: #D7270C;
+	text-decoration: underline;
+	text-decoration-color: #000000;
+}
+footer {
+     background-image: url('bgfoot.jpeg'); 
+     text-align: center;
+     padding: 40px 0;
+}
+.copyright {
+   color: #FFFFFF;
+   font-size: 13px;
+   margin: 20px 0 0;
+   text-decoration: underline;
+   text-decoration-color: #000000;
+}
